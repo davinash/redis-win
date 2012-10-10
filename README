@@ -1,0 +1,7 @@
+Copied from https://github.com/antirez/redis
+
+Started to port redis on Windows
+Current Status
+--------------
+Enabled Build only . [ Oct 09 2012 ]
+

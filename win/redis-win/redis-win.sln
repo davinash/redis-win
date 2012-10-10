@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "redis-server", "redis-server\redis-server.vcxproj", "{956301B6-E0A4-478D-AA93-F00412710F6E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{05784AA1-21FF-42DB-B490-0885A81D148D} = {05784AA1-21FF-42DB-B490-0885A81D148D}
+		{29ADF1E4-C4DC-48E5-9C16-1AD480BFF928} = {29ADF1E4-C4DC-48E5-9C16-1AD480BFF928}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hiredis", "hiredis\hiredis.vcxproj", "{29ADF1E4-C4DC-48E5-9C16-1AD480BFF928}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "redis-cli", "redis-cli\redis-cli.vcxproj", "{97FFF677-1F46-4D48-91BE-4496FBDC0E4F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{29ADF1E4-C4DC-48E5-9C16-1AD480BFF928} = {29ADF1E4-C4DC-48E5-9C16-1AD480BFF928}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "linenoise", "linenoise\linenoise.vcxproj", "{05784AA1-21FF-42DB-B490-0885A81D148D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{956301B6-E0A4-478D-AA93-F00412710F6E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{956301B6-E0A4-478D-AA93-F00412710F6E}.Debug|Win32.Build.0 = Debug|Win32
+		{956301B6-E0A4-478D-AA93-F00412710F6E}.Release|Win32.ActiveCfg = Release|Win32
+		{956301B6-E0A4-478D-AA93-F00412710F6E}.Release|Win32.Build.0 = Release|Win32
+		{29ADF1E4-C4DC-48E5-9C16-1AD480BFF928}.Debug|Win32.ActiveCfg = Debug|Win32
+		{29ADF1E4-C4DC-48E5-9C16-1AD480BFF928}.Debug|Win32.Build.0 = Debug|Win32
+		{29ADF1E4-C4DC-48E5-9C16-1AD480BFF928}.Release|Win32.ActiveCfg = Release|Win32
+		{29ADF1E4-C4DC-48E5-9C16-1AD480BFF928}.Release|Win32.Build.0 = Release|Win32
+		{97FFF677-1F46-4D48-91BE-4496FBDC0E4F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{97FFF677-1F46-4D48-91BE-4496FBDC0E4F}.Debug|Win32.Build.0 = Debug|Win32
+		{97FFF677-1F46-4D48-91BE-4496FBDC0E4F}.Release|Win32.ActiveCfg = Release|Win32
+		{97FFF677-1F46-4D48-91BE-4496FBDC0E4F}.Release|Win32.Build.0 = Release|Win32
+		{05784AA1-21FF-42DB-B490-0885A81D148D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{05784AA1-21FF-42DB-B490-0885A81D148D}.Debug|Win32.Build.0 = Debug|Win32
+		{05784AA1-21FF-42DB-B490-0885A81D148D}.Release|Win32.ActiveCfg = Release|Win32
+		{05784AA1-21FF-42DB-B490-0885A81D148D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
